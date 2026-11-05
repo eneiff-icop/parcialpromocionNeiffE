@@ -1,0 +1,16 @@
+# Compilación de Maven
+target/
+
+# Base de datos local H2 en disco
+data/
+
+# Variables de entorno con contraseñas locales (NUNCA SUBIR A GIT)
+.env
+
+# Archivos de configuración de IDEs (VS Code, IntelliJ IDEA, Eclipse)
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
