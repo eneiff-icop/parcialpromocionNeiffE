@@ -3,7 +3,6 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<!-- Versión de Spring Boot utilizada en la cátedra -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -11,7 +10,6 @@
 		<relativePath/>
 	</parent>
 	
-	<!-- Identificación del proyecto -->
 	<groupId>icop</groupId>
 	<artifactId>parcialpromocionneiffe</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -29,32 +27,31 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
-		<!-- 1. Spring Web MVC: Para APIs REST y servidor embebido Tomcat -->
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
 
-		<!-- 2. Spring Data JPA: Para persistencia y conexión con la base de datos -->
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 
-		<!-- 3. Driver de base de datos H2 -->
+		
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 
-		<!-- 4. Consola H2 para consultar la base de datos en /h2-console -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-h2console</artifactId>
 		</dependency>
 
-		<!-- 5. Flyway: Administrador de migraciones de base de datos -->
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-flyway</artifactId>
@@ -64,7 +61,7 @@
 			<artifactId>flyway-core</artifactId>
 		</dependency>
 
-		<!-- 6. DevTools: Reinicio automático al editar código -->
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -72,14 +69,14 @@
 			<optional>true</optional>
 		</dependency>
 
-		<!-- 7. Lombok: Genera Getters y Setters automáticamente -->
+		
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
 
-		<!-- Dependencia de tests -->
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
